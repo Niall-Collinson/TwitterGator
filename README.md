@@ -6,12 +6,14 @@ This application detects events happening on Twitter by generating a termgraph o
 
 ## How to install
 
-The code is under the source file. Paths will need to be configured for this application to run. 
+The code to download and run is under the source file. 
 
-The CHkS file is modified code provided by a third party. This code is an event detection algorithm. This code needs to be turned into a jar file in order for it to be callable by the application.
-
+The CHkS file is modified code provided by a third party. This code is an event detection algorithm which is third party code. This java code is converted into a jar file which is then called by the application. This jar file is included in the source file.
 
 ## How to use
+
+*** THE APPLICATION WILL NOT CONNECT TO THE SERVER AS IT HAS BEEN SHUT DOWN ***
+~ if you would like the server to be started, please get in touch ~
 
 Once configured simply start the start.py file with Python 3 installed.
 
