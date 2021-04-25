@@ -486,8 +486,8 @@ public class BnB_Node { //implements Comparable<BnBNode> {
 		File myObj = new File("CHkS_output.txt");
 		
 		try {
-			BufferedWriter out = new BufferedWriter(new FileWriter("/Users/niallcollinson/Desktop/CHkS_output.csv"));
-			//FileWriter myWriter = new FileWriter("/Users/niallcollinson/Desktop/CHkS_output.csv");
+			BufferedWriter out = new BufferedWriter(new FileWriter("/CHkS_output.csv"));
+			//FileWriter myWriter = new FileWriter("/CHkS_output.csv");
 			
 			
 			out.write("Vertices");
